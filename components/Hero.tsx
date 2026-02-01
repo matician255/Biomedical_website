@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import heroImg from '../img/emily_01.png';
+// @ts-ignore
+import heroImg from '../img/emily_01.png?url';
 
 const Hero: React.FC = () => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -54,7 +55,7 @@ const Hero: React.FC = () => {
               <div className="mt-8 xl:hidden space-y-4">
                  <p className="text-sm font-bold tracking-widest text-emerald-400 uppercase">My Mission</p>
                  <p className="text-white/60 text-sm leading-relaxed">
-                   To bridge the divide between complex multi-omic data and clinical application through precise, data-driven storytelling.
+                   Clinician-researcher bridging medicine and data science to attain more precise, data-driven management of diseases.
                  </p>
               </div>
             </div>
@@ -73,7 +74,7 @@ const Hero: React.FC = () => {
               </div>
               <h1 className="text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tighter">
                 Crafting <br />
-                <span className="text-white/40">Biological</span> <br />
+                <span className="text-white/40"> Medical & Biological</span> <br />
                 Narratives.
               </h1>
             </div>
@@ -83,7 +84,7 @@ const Hero: React.FC = () => {
               <ul className="space-y-2 text-lg text-white/80">
                 <li className="flex items-center gap-3">
                   <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span>
-                  Medical Writing & CSRs
+                  Medical Writing
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span>
@@ -91,7 +92,7 @@ const Hero: React.FC = () => {
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span>
-                  Scientific Visualization
+                  Research in Precision Medicine
                 </li>
               </ul>
             </div>
@@ -109,9 +110,9 @@ const Hero: React.FC = () => {
           {/* Column 3: Mission Statement (Right) */}
           <div className="xl:pt-16 space-y-8 z-10 border-l border-white/5 pl-8 hidden xl:block order-3">
             <div className="space-y-6">
-              <p className="text-sm font-bold tracking-widest text-white/50 uppercase">Our Mission</p>
+              <p className="text-sm font-bold tracking-widest text-white/50 uppercase">My Mission</p>
               <blockquote className="text-2xl font-medium leading-relaxed italic text-white/90">
-                "To bridge the divide between complex multi-omic data and clinical application through precise, data-driven storytelling."
+                "Clinician-researcher bridging medicine and data science to attain more precise, data-driven management of diseases."
               </blockquote>
               <div className="h-[1px] w-12 bg-emerald-500"></div>
               <p className="text-white/50 leading-relaxed text-sm">
@@ -121,11 +122,11 @@ const Hero: React.FC = () => {
             
             <div className="grid grid-cols-2 gap-4 pt-8">
               <div className="p-4 rounded-2xl bg-white/5 border border-white/5">
-                <div className="text-2xl font-bold text-emerald-400">40+</div>
+                <div className="text-2xl font-bold text-emerald-400">5+</div>
                 <div className="text-[10px] text-white/40 uppercase font-bold tracking-widest">Publications</div>
               </div>
               <div className="p-4 rounded-2xl bg-white/5 border border-white/5">
-                <div className="text-2xl font-bold text-emerald-400">8Y+</div>
+                <div className="text-2xl font-bold text-emerald-400">3Y+</div>
                 <div className="text-[10px] text-white/40 uppercase font-bold tracking-widest">Experience</div>
               </div>
             </div>
