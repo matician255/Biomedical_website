@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
                 <div className="absolute inset-0 bg-emerald-500/5 mix-blend-color z-10"></div>
                 
                 <img 
-                  src="https://picsum.photos/seed/doc-portrait/800/1000?grayscale" 
+                  src="/img/chatgpt image 03_29_47.jpg" 
                   alt="Portrait"
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
