@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
                 <div className="absolute inset-0 bg-emerald-500/5 mix-blend-color z-10"></div>
                 
                 <img 
-                  src="/img/chatgpt image 03_29_47.jpg" 
+                  src="img\emily_01.png" 
                   alt="Portrait"
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
                 {/* Floating Title Tag */}
                 <div className="absolute top-6 right-6 z-30 flex items-center gap-2 px-3 py-1.5 bg-black/60 backdrop-blur-md rounded-full border border-white/10">
                   <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></div>
-                  <span className="text-[10px] font-bold tracking-widest uppercase">Senior Analyst</span>
+                  <span className="text-[10px] font-bold tracking-widest uppercase">MD | Writer| Researcher</span>
                 </div>
               </div>
 
