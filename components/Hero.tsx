@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import heroImg from '../img/emily_01.png';
 
 const Hero: React.FC = () => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -28,7 +29,7 @@ const Hero: React.FC = () => {
                 <div className="absolute inset-0 bg-emerald-500/5 mix-blend-color z-10"></div>
                 
                 <img 
-                  src="img\emily_01.png" 
+                  src={heroImg}
                   alt="Portrait"
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
