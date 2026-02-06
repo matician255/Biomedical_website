@@ -1,9 +1,10 @@
 
 import React, { useState } from 'react';
 import { PROJECTS } from '../constants';
+import { Project } from '../types';
 
 const Work: React.FC = () => {
-  const [selectedProject, setSelectedProject] = useState<typeof PROJECTS[0] | null>(null);
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   return (
     <section id="work" className="py-24">
@@ -112,8 +113,8 @@ const Work: React.FC = () => {
                  <p className="text-xl text-emerald-400/80 font-medium mb-8">{selectedProject.description}</p>
                  
                  {/* Placeholder for full article content if not present in data */}
-                 {(selectedProject as any).content ? (
-                    <div dangerouslySetInnerHTML={{ __html: (selectedProject as any).content }} />
+                 {selectedProject.content ? (
+                    <div dangerouslySetInnerHTML={{ __html: selectedProject.content }} />
                  ) : (
                     <div className="space-y-6 text-white/60">
                       <p>

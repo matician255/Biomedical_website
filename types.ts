@@ -11,6 +11,7 @@ export interface Project {
   location: string;
   category: string;
   link: string;
+  content?: string;
 }
 
 export interface Service {
