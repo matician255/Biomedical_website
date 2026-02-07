@@ -111,7 +111,7 @@ export const PROJECTS: Project[] = [
     description: 'Learn the 5 critical heart attack warning signs that appear weeks before the event. Evidence-based medical guidance from a licensed physician on early detection and prevention.',
     image: heartArticleImg,
     location: 'Remote',
-    category: 'Medical Writing',
+    category: 'Script Writing',
     link: '#',
     content: `
     <!DOCTYPE html>
@@ -157,6 +157,7 @@ export const PROJECTS: Project[] = [
             border-radius: 8px;
             margin-bottom: 25px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            color: #333;
         }
         
         .portfolio-meta h2 {
@@ -189,6 +190,7 @@ export const PROJECTS: Project[] = [
             padding: 40px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            color: #333;
         }
         
         .timestamp {
