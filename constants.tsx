@@ -20,7 +20,7 @@ export const PROJECTS: Project[] = [
   <article class="diabetes-article" lang="en">
   <header class="article-header">
     <h1><strong>Five Common Diabetes Myths Young Adults Should Know</strong></h1>
-    <p class="lead">If you are aged 18–35, diabetes may feel like a distant concern — but incidence among young adults is rising. This article debunks five widespread myths so you can recognize risk, seek appropriate screening, and take action early.</p>
+    <p class="lead">If you are aged 18-35, diabetes may feel like a distant concern , but incidence among young adults is rising. This article debunks five widespread myths so you can recognize risk, seek appropriate screening, and take action early.</p>
   </header>
 
   <section id="myth-1" aria-labelledby="myth-1-heading">
@@ -30,14 +30,14 @@ export const PROJECTS: Project[] = [
 
     <aside class="actionable-tip" role="note" aria-labelledby="tip-1-title">
       <h3 id="tip-1-title"><strong>Actionable tip</strong></h3>
-      <p>If you have a family history of diabetes, ask your clinician for a fasting glucose or HbA1c test during routine care — regardless of your weight. Early detection enables interventions that reduce long‑term complications.</p>
+      <p>If you have a family history of diabetes, ask your clinician for a fasting glucose or HbA1c test during routine care , regardless of your weight. Early detection enables interventions that reduce long‑term complications.</p>
     </aside>
   </section>
 
   <section id="myth-2" aria-labelledby="myth-2-heading">
     <h2 id="myth-2-heading"><strong><span class="misconception-number">#2</span> If You Feel Fine, You Don't Have Diabetes</strong></h2>
-    <p>Diabetes often progresses silently. Many people are asymptomatic until metabolic damage prompts an acute event or emergency. By the time classic symptoms — excessive thirst, frequent urination, blurred vision, unexplained weight loss — appear, significant harm may already have occurred.</p>
-    <p>Intervening during this silent window is most effective: modest weight loss (5–7% body weight) and ≈150 minutes of moderate activity per week substantially lower progression to type 2 diabetes in high‑risk individuals, making routine screening valuable for at‑risk groups.</p>
+    <p>Diabetes often progresses silently. Many people are asymptomatic until metabolic damage prompts an acute event or emergency. By the time classic symptoms , excessive thirst, frequent urination, blurred vision, unexplained weight loss , appear, significant harm may already have occurred.</p>
+    <p>Intervening during this silent window is most effective: modest weight loss (5-7% body weight) and ≈150 minutes of moderate activity per week substantially lower progression to type 2 diabetes in high‑risk individuals, making routine screening valuable for at‑risk groups.</p>
 
     <aside class="actionable-tip" role="note" aria-labelledby="tip-2-title">
       <h3 id="tip-2-title"><strong>Actionable tip</strong></h3>
@@ -52,7 +52,7 @@ export const PROJECTS: Project[] = [
 
     <aside class="actionable-tip" role="note" aria-labelledby="tip-3-title">
       <h3 id="tip-3-title"><strong>Actionable tip</strong></h3>
-      <p>Adopt a balanced dietary pattern — for example, a Mediterranean‑style diet rich in vegetables, whole grains, lean proteins, and healthy fats — rather than fixating solely on sugar elimination.</p>
+      <p>Adopt a balanced dietary pattern , for example, a Mediterranean‑style diet rich in vegetables, whole grains, lean proteins, and healthy fats , rather than fixating solely on sugar elimination.</p>
     </aside>
   </section>
 
@@ -63,7 +63,7 @@ export const PROJECTS: Project[] = [
 
     <aside class="actionable-tip" role="note" aria-labelledby="tip-4-title">
       <h3 id="tip-4-title"><strong>Actionable tip</strong></h3>
-      <p>If diagnosed, connect promptly with an endocrinologist and a certified diabetes educator (CDE). Peer support groups — in person or online — provide practical tips and emotional support from others living with diabetes.</p>
+      <p>If diagnosed, connect promptly with an endocrinologist and a certified diabetes educator (CDE). Peer support groups , in person or online , provide practical tips and emotional support from others living with diabetes.</p>
     </aside>
   </section>
 
