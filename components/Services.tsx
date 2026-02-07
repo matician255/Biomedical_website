@@ -34,7 +34,7 @@ const Services: React.FC = () => {
         </div>
 
         <div className="mt-20 text-center">
-           <a href="https://api.whatsapp.com/send?phone=+255757917752" className="inline-flex items-center gap-4 px-10 py-5 bg-emerald-600 rounded-full font-bold hover:bg-emerald-500 hover:scale-105 transition-all duration-300">
+           <a href="https://api.whatsapp.com/send?phone=255757917752" className="inline-flex items-center gap-4 px-10 py-5 bg-emerald-600 rounded-full font-bold hover:bg-emerald-500 hover:scale-105 transition-all duration-300">
              Schedule a Consultation
              <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
                 <span className="text-lg">💬</span>
