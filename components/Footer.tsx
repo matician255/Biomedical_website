@@ -19,16 +19,16 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-end">
           <div className="space-y-8">
             <div className="text-2xl font-bold tracking-tighter">
-              Dr. Julian <span className="text-emerald-500">Thorne</span>
+              Dr. Emily <span className="text-emerald-500">Godfrey</span>
             </div>
-            <a href="mailto:hello@drthorne.com" className="text-4xl md:text-5xl font-bold hover:text-emerald-400 transition-colors block border-b-2 border-white/10 pb-4">
-              hello@drthorne.com
+            <a href="mailto:mathematiciangodfrey@outlook.com" className="text-4xl md:text-5xl font-bold hover:text-emerald-400 transition-colors block border-b-2 border-white/10 pb-4">
+              mathematiciangodfrey@outlook.com
             </a>
           </div>
 
           <div className="flex flex-col md:items-end gap-6 text-sm font-bold tracking-widest text-white/50">
             <div className="flex gap-8">
-              <a href="#" className="hover:text-white transition-colors">LINKEDIN</a>
+              <a href="https://www.linkedin.com/in/emilyemily255/" className="hover:text-white transition-colors">LINKEDIN</a>
               <a href="#" className="hover:text-white transition-colors">ORCID</a>
               <a href="#" className="hover:text-white transition-colors">GOOGLE SCHOLAR</a>
             </div>

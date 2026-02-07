@@ -2,6 +2,8 @@
 import { NavItem, Project, Service, AboutPoint } from './types';
 // @ts-ignore
 import dmArticleImg from './img/dm_article.png';
+// @ts-ignore
+import heartArticleImg from './img/hearth_article.png';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'HOME', href: '#home' },
@@ -105,12 +107,301 @@ export const PROJECTS: Project[] = [
 
 
   {
-    title: 'Clinical Trial Narrative',
-    description: 'Expert medical writing for a Phase III Oncology drug submission (FDA/EMA).',
-    image: 'https://picsum.photos/seed/med1/1200/800',
-    location: 'Global Pharma - London',
-    category: 'Regulatory Writing',
+    title: "5 Heart Attack Warning Signs That Appear 30 Days Before (Don't Ignore Them)",
+    description: 'Learn the 5 critical heart attack warning signs that appear weeks before the event. Evidence-based medical guidance from a licensed physician on early detection and prevention.',
+    image: heartArticleImg,
+    location: 'Remote',
+    category: 'Medical Writing',
     link: '#',
+    content: `
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="YouTube script sample: 5 Heart Attack Warning Signs. Professional medical scriptwriting by Dr. Emily Godfrey using Hook-Value-Retention framework.">
+    <title>YouTube Script Portfolio | Dr. Emily Godfrey</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .portfolio-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .portfolio-header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2em;
+        }
+        
+        .portfolio-header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .portfolio-meta {
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .portfolio-meta h2 {
+            margin-top: 0;
+            color: #667eea;
+        }
+        
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .meta-item {
+            padding: 12px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border-left: 3px solid #667eea;
+        }
+        
+        .meta-item strong {
+            color: #667eea;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .script-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .timestamp {
+            display: inline-block;
+            background-color: #667eea;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .section-label {
+            background-color: #ffc107;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 30px 0 15px 0;
+            text-transform: uppercase;
+        }
+        
+        .script-section {
+            margin-bottom: 35px;
+            padding: 20px;
+            background-color: #fafafa;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+        
+        .script-section h3 {
+            color: #c41e3a;
+            margin-top: 0;
+        }
+        
+        .script-section p {
+            margin: 12px 0;
+            line-height: 1.8;
+        }
+        
+        .stat-highlight {
+            background-color: #fff3cd;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+        
+        .technique-note {
+            background-color: #e7f3ff;
+            border-left: 4px solid #0066cc;
+            padding: 15px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        
+        .cta-section {
+            background-color: #d4edda;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .framework-badge {
+            background-color: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            display: inline-block;
+            margin: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .portfolio-header, .script-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="portfolio-header">
+        <h1>YouTube Script Portfolio</h1>
+        <p class="subtitle">Professional Medical Scriptwriting | Evidence-Based Health Content</p>
+        <div>
+            <span class="framework-badge">HVR Framework</span>
+            <span class="framework-badge">1,500 Words</span>
+            <span class="framework-badge">Physician-Written</span>
+        </div>
+    </header>
+
+    <section class="portfolio-meta">
+        <h2>Script Overview</h2>
+        <div class="meta-grid">
+            <div class="meta-item">
+                <strong>Title</strong>
+                5 Heart Attack Warning Signs That Appear 30 Days Before
+            </div>
+            <div class="meta-item">
+                <strong>Format</strong>
+                Hook-Value-Retention (HVR)
+            </div>
+            <div class="meta-item">
+                <strong>Length</strong>
+                8-10 minutes
+            </div>
+            <div class="meta-item">
+                <strong>Citations</strong>
+                6 peer-reviewed sources
+            </div>
+        </div>
+    </section>
+
+    <article class="script-container">
+        
+        <div class="section-label">Hook (0:00-0:45)</div>
+        
+        <div class="script-section">
+            <p>What if I told you that your body starts warning you about a heart attack a full month before it happens? Most people miss these signs completely, and by the time they realize something's wrong, they're in the emergency room.</p>
+            
+            <p>Here's the terrifying truth: According to the American Heart Association, <span class="stat-highlight">someone in the United States has a heart attack every 40 seconds</span>. That's while you're watching this video, right now. But here's what most people don't know, your heart doesn't just suddenly fail. It sends out distress signals weeks in advance.</p>
+            
+            <p>I'm Dr. Emily, a licensed physician in clinical practice, and I've seen patients ignore these exact warning signs until it was almost too late. Today, I'm going to share the 5 critical symptoms that appear up to 30 days before a heart attack, symptoms that could save your life or the life of someone you love.</p>
+            
+            <div class="technique-note">
+                <strong>Retention Hook:</strong> Stick with me until the end, because warning sign number 5 is so subtle that even some doctors miss it during routine checkups.
+            </div>
+        </div>
+
+        <div class="section-label">Value Delivery (0:45-8:30)</div>
+
+        <div class="script-section">
+            <h3><span class="timestamp">1:00-2:15</span> Warning Sign #1: Unusual Fatigue</h3>
+            
+            <p>Let me start with the most commonly missed warning sign: extreme fatigue that seems to come out of nowhere.</p>
+            
+            <p>Now, we all get tired. Long workday, you didn't sleep well, chasing kids around, that's normal. But I'm talking about a different kind of exhaustion. This is the kind where you feel completely drained after simple activities that never used to bother you.</p>
+            
+            <p>A study published in <em>Circulation</em> found that <span class="stat-highlight">71% of women who had heart attacks reported unusual fatigue</span> beforehand.</p>
+            
+            <div class="cta-section">
+                <strong>Action:</strong> If fatigue persists for more than a week despite rest, see your doctor immediately.
+            </div>
+        </div>
+
+        <div class="script-section">
+            <h3><span class="timestamp">2:15-3:30</span> Warning Sign #2: Shortness of Breath</h3>
+            
+            <p>When blood flow to your heart decreases, fluid can start backing up into your lungs. This is called pulmonary congestion, and it makes breathing feel difficult even when you're at rest.</p>
+            
+            <p>Mayo Clinic research shows <span class="stat-highlight">40% of people report unexplained shortness of breath</span> in the month before their heart attack.</p>
+            
+            <div class="technique-note">
+                <strong>Clinical Story:</strong> I had a patient in his early 50s sleeping propped on three pillows because lying flat caused breathlessness. Three weeks later, he was in the ER with a massive heart attack.
+            </div>
+        </div>
+
+        <div class="script-section">
+            <h3><span class="timestamp">3:30-4:45</span> Warning Sign #3: Unexplained Indigestion</h3>
+            
+            <p>The nerves that supply your heart are very close to the nerves that supply your digestive system. When your heart muscle isn't getting enough oxygen, your brain can misinterpret those signals as stomach problems.</p>
+            
+            <p>A <em>JAMA</em> study found <span class="stat-highlight">30% of heart attack patients initially thought they had indigestion</span>, delaying appropriate care.</p>
+        </div>
+
+        <div class="script-section">
+            <h3><span class="timestamp">4:45-6:00</span> Warning Sign #4: Chest Discomfort That Comes and Goes</h3>
+            
+            <p>This intermittent chest discomfort is called angina. The American Heart Association reports <span class="stat-highlight">50% of heart attack patients experienced intermittent chest discomfort</span> beforehand, but few sought help.</p>
+            
+            <div class="cta-section">
+                <strong>Gender Note:</strong> Women often experience atypical symptoms like pressure or tightness rather than classic chest pain.
+            </div>
+        </div>
+
+        <div class="script-section">
+            <h3><span class="timestamp">6:00-7:15</span> Warning Sign #5: Cold Sweats and Dizziness</h3>
+            
+            <p><em>European Heart Journal</em> studies show cold sweats combined with other symptoms dramatically increase heart attack risk. These symptoms rarely appear alone.</p>
+            
+            <div class="cta-section">
+                <strong>Critical:</strong> If experiencing multiple warning signs, call emergency services immediately.
+            </div>
+        </div>
+
+        <div class="section-label">Close & Call-to-Action (7:15-9:00)</div>
+
+        <div class="script-section">
+            <p>Remember: Your heart has been working nonstop since before you were born. It deserves your attention when it's asking for help. These warning signs are your body's way of giving you a chance to act before it's too late.</p>
+            
+            <p>Don't ignore them. Don't wait. Your life might literally depend on it.</p>
+        </div>
+
+    </article>
+
+    <section class="portfolio-meta" style="margin-top: 30px;">
+        <h2>Why This Script Works</h2>
+        <div class="technique-note">
+            <ul style="margin: 10px 0;">
+                <li><strong>Evidence-Based:</strong> 6 peer-reviewed citations from top medical journals</li>
+                <li><strong>Physician Authority:</strong> Written by licensed MD with clinical experience</li>
+                <li><strong>Pattern Interrupts:</strong> Engagement hooks every 60-90 seconds</li>
+                <li><strong>Clinical Stories:</strong> Authentic patient examples for emotional impact</li>
+                <li><strong>Clear CTAs:</strong> Specific action steps throughout</li>
+                <li><strong>Gender-Inclusive:</strong> Addresses differences in symptoms</li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>
+    `
   },
   {
     title: 'Microbiome Mapping',
@@ -134,7 +425,7 @@ export const SERVICES: Service[] = [
   {
     id: '01',
     title: 'Medical Writing',
-    description: 'High-quality manuscripts, clinical study reports (CSRs), and regulatory dossiers tailored for high-impact journals and health authorities.',
+    description: 'I help researchers and pharmaceutical companies turn complex medical data into publication-ready manuscripts and regulatory documents. As a licensed physician, I write clinical study reports, journal articles, and regulatory dossiers that meet the exacting standards of top journals and health authorities like the FDA.',
   },
   {
     id: '02',

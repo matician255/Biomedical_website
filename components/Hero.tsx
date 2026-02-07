@@ -126,7 +126,7 @@ const Hero: React.FC = () => {
                 <div className="text-[10px] text-white/40 uppercase font-bold tracking-widest">Publications</div>
               </div>
               <div className="p-4 rounded-2xl bg-white/5 border border-white/5">
-                <div className="text-2xl font-bold text-emerald-400">3Y+</div>
+                <div className="text-2xl font-bold text-emerald-400">4Y+</div>
                 <div className="text-[10px] text-white/40 uppercase font-bold tracking-widest">Experience</div>
               </div>
             </div>
