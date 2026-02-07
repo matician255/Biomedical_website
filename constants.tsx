@@ -405,6 +405,8 @@ export const PROJECTS: Project[] = [
 </html>
     `
   },
+
+/*
   {
     title: 'Microbiome Mapping',
     description: 'Visualizing temporal changes in gut microflora during probiotic intervention.',
@@ -420,8 +422,9 @@ export const PROJECTS: Project[] = [
     location: 'WHO Initiative - Geneva',
     category: 'Medical Review',
     link: '#',
-  },
+  }, */
 ];
+
 
 export const SERVICES: Service[] = [
   {
