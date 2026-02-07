@@ -1,5 +1,7 @@
 
 import { NavItem, Project, Service, AboutPoint } from './types';
+// @ts-ignore
+import dmArticleImg from './img/dm_article.png';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'HOME', href: '#home' },
@@ -12,7 +14,7 @@ export const PROJECTS: Project[] = [
   {
     title: 'Diabetes in Young Adults: 5 Common Myths | Medical Insights',
     description: "5 myths about diabetes in young adults; what’s true, what’s dangerous, and simple steps to protect your health",
-    image:'img/dm_article.png',
+    image: dmArticleImg,
     location: 'Remote',
     category: 'Medical Writing',
     link: '#',
@@ -147,10 +149,10 @@ export const SERVICES: Service[] = [
 ];
 
 export const ABOUT_POINTS: AboutPoint[] = [
-  { id: 1, content: 'Over 8 years of specialized experience as a Medical Writer and Bioinformatics Analyst, bridging the gap between clinical data and clear communication.' },
-  { id: 2, content: 'Authored over 40 peer-reviewed publications and clinical reports for leading healthcare institutions and pharmaceutical giants.' },
-  { id: 3, content: 'Technical expertise in R, Python, and SQL for biological data mining, coupled with an MD/PhD background for scientific depth.' },
+  { id: 1, content: 'Over 4 years of specialized experience as a Medical Doctor, Medical Writer, Researcher and Bioinformatics Analyst, bridging the gap between clinical data and efficient disease management.' },
+  { id: 2, content: 'Authored 5 peer-reviewed publications and clinical reports for leading healthcare institutions and pharmaceutical giants.' },
+  { id: 3, content: 'Technical expertise in R, Python, Linux and SQL for biological data mining, coupled with an MD background for scientific depth.' },
   { id: 4, content: 'Certified specialist in AMA and ICMJE reporting standards, ensuring regulatory compliance and ethical integrity in all documentation.' },
   { id: 5, content: 'Led data visualization projects for complex genomic datasets, making high-dimensional data accessible to multi-disciplinary teams.' },
-  { id: 6, content: 'Expertise in translating technical bioinformatics findings into patient-centric narratives for medical affairs departments.' },
+  { id: 6, content: 'Expertise in translating medical and technical findings into patient-centric narratives for medical affairs departments.' },
 ];
