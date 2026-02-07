@@ -9,7 +9,7 @@ const Experience: React.FC = () => {
       <div className="container mx-auto px-8 text-center relative z-10">
         <div className="relative inline-block">
           <h2 className="text-[10vw] font-bold opacity-5 leading-none tracking-tighter select-none">
-            8+ YEARS OF
+            4+ YEARS OF
           </h2>
           <div className="absolute inset-0 flex flex-col items-center justify-center">
              <h3 className="text-3xl md:text-5xl font-bold">Experience in Clinical Intelligence</h3>
