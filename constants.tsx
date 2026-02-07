@@ -3,7 +3,7 @@ import { NavItem, Project, Service, AboutPoint } from './types';
 // @ts-ignore
 import dmArticleImg from './img/dm_article.png';
 // @ts-ignore
-import heartArticleImg from './img/hearth_article.png';
+import heartArticleImg from './img/heart_article.png';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'HOME', href: '#home' },
