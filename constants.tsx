@@ -426,7 +426,7 @@ export const PROJECTS: Project[] = [
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
       line-height: 1.6;
       color: #000;
-      background-color: #f5f5f5;
+      background-color:rgb(17, 16, 16);
       margin: 0;
       padding: 0;
     }
