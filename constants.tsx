@@ -427,11 +427,11 @@ export const PROJECTS: Project[] = [
       --navy: #1a2744;
       --teal: #0e6b72;
       --teal-light: #e6f4f5;
-      --red: #c0392b;
+      --red: #a52c1e;
       --red-light: #fdf0ee;
-      --green: #1a7a4a;
+      --green: #115e37;
       --green-light: #edf7f1;
-      --gold: #b8892a;
+      --gold: #9c6f19;
       --gold-light: #fdf6e3;
       --gray-50: #f8f9fb;
       --gray-100: #f0f2f5;
