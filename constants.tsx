@@ -423,111 +423,64 @@ export const PROJECTS: Project[] = [
   <title>Medical AI Annotation Portfolio – Dr. Emily Godfrey, MD</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet"/>
   <style>
-    :root {
-      --navy: #1a2744;
-      --teal: #0e6b72;
-      --teal-light: #e6f4f5;
-      --red: #a52c1e;
-      --red-light: #fdf0ee;
-      --green: #115e37;
-      --green-light: #edf7f1;
-      --gold: #9c6f19;
-      --gold-light: #fdf6e3;
-      --gray-50: #f8f9fb;
-      --gray-100: #f0f2f5;
-      --gray-200: #dde2ea;
-      --gray-600: #495057;
-      --gray-800: #212529;
-      --body-font: 'Source Serif 4', Georgia, serif;
-      --heading-font: 'Playfair Display', Georgia, serif;
-    }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     body {
-      font-family: var(--body-font);
-      color: var(--gray-800);
-      background: #fff;
-      font-size: 17px;
-      line-height: 1.75;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
     }
 
-    /* ── HEADER ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 28px;
+    }
+    
     header {
-      background: var(--navy);
-      color: #fff;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
       padding: 60px 40px 50px;
       text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-    header::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at 70% 40%, rgba(14,107,114,0.35) 0%, transparent 65%);
-      pointer-events: none;
     }
     header h1 {
-      font-family: var(--heading-font);
       font-size: clamp(2rem, 4vw, 3rem);
-      font-weight: 900;
-      letter-spacing: -0.5px;
       margin-bottom: 10px;
     }
     header .subtitle {
       font-size: 1.05rem;
-      color: rgba(255,255,255,0.75);
-      font-weight: 300;
-      letter-spacing: 0.5px;
+      opacity: 0.9;
     }
-    header .tagline {
-      margin-top: 18px;
-      display: inline-block;
-      background: rgba(14,107,114,0.4);
-      border: 1px solid rgba(14,107,114,0.6);
-      border-radius: 30px;
-      padding: 6px 20px;
-      font-size: 0.85rem;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.9);
-    }
-
-    /* ── LAYOUT ── */
-    .container {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 0 28px;
+     header .tagline {
+        margin-top: 18px;
+        font-size: 0.85rem;
     }
 
     section {
-      padding: 52px 0 44px;
-      border-bottom: 1px solid var(--gray-200);
+      background-color: white;
+      padding: 30px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
-    section:last-of-type { border-bottom: none; }
 
-    /* ── TYPOGRAPHY ── */
     h2 {
-      font-family: var(--heading-font);
       font-size: 1.75rem;
-      font-weight: 700;
-      color: var(--navy);
+      color: #333;
       margin-bottom: 22px;
       padding-bottom: 12px;
-      border-bottom: 2px solid var(--teal);
+      border-bottom: 2px solid #667eea;
     }
     h3 {
-      font-family: var(--heading-font);
       font-size: 1.25rem;
-      font-weight: 700;
-      color: var(--navy);
+      color: #333;
       margin: 28px 0 12px;
     }
     h4 {
       font-size: 1rem;
       font-weight: 600;
-      color: var(--teal);
+      color: #667eea;
       text-transform: uppercase;
       letter-spacing: 0.8px;
       margin: 22px 0 8px;
@@ -536,111 +489,80 @@ export const PROJECTS: Project[] = [
     p:last-child { margin-bottom: 0; }
     strong { font-weight: 600; }
 
-    /* ── INTRO BLOCK ── */
     .intro-text {
       font-size: 1.08rem;
-      color: var(--gray-600);
-      background: var(--gray-50);
-      border-left: 4px solid var(--teal);
+      background: #f8f9fa;
+      border-left: 4px solid #667eea;
       padding: 22px 24px;
       border-radius: 0 8px 8px 0;
     }
 
-    /* ── SCENARIO CARD ── */
     .scenario-card {
-      background: var(--gray-50);
-      border: 1px solid var(--gray-200);
+      background: #f8f9fa;
+      border: 1px solid #eee;
       border-radius: 12px;
       padding: 28px 30px;
       margin-bottom: 28px;
     }
-    .scenario-card .persona-label {
-      font-size: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: var(--teal);
-      font-weight: 600;
-      margin-bottom: 6px;
-    }
     .scenario-card .patient-quote {
       font-style: italic;
-      color: var(--gray-600);
       background: #fff;
-      border: 1px solid var(--gray-200);
+      border: 1px solid #eee;
       border-radius: 8px;
       padding: 16px 20px;
       margin: 14px 0;
-      font-size: 0.97rem;
-      line-height: 1.7;
     }
 
-    /* ── HIDDEN CONTEXT ── */
     .hidden-context {
-      background: var(--gold-light);
-      border: 1px solid #e8d08a;
+      background: #fff3cd;
+      border: 1px solid #ffeeba;
       border-radius: 8px;
       padding: 18px 22px;
       margin: 14px 0;
     }
-    .hidden-context .label {
+     .hidden-context .label {
       font-weight: 700;
-      color: var(--gold);
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.8px;
-      margin-bottom: 10px;
+      color: #856404;
     }
-    .hidden-context ul { padding-left: 20px; }
-    .hidden-context li { margin-bottom: 5px; font-size: 0.95rem; }
 
-    /* ── AI RESPONSE BLOCKS ── */
     .response-block {
       border-radius: 10px;
       padding: 22px 26px;
       margin: 20px 0;
     }
     .response-block.unsafe {
-      background: var(--red-light);
-      border: 1px solid #f0b8b2;
+      background-color: #f8d7da;
+      border: 1px solid #f5c6cb;
     }
     .response-block.safe {
-      background: var(--green-light);
-      border: 1px solid #a8d9bb;
+      background-color: #d4edda;
+      border: 1px solid #c3e6cb;
     }
     .response-block .response-label {
-      font-size: 0.82rem;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-bottom: 10px;
     }
-    .response-block.unsafe .response-label { color: var(--red); }
-    .response-block.safe .response-label { color: var(--green); }
+    .response-block.unsafe .response-label { color: #721c24; }
+    .response-block.safe .response-label { color: #155724; }
     .response-block blockquote {
       font-style: italic;
-      color: var(--gray-600);
-      font-size: 0.95rem;
-      line-height: 1.7;
-      border-left: 3px solid currentColor;
+      border-left: 3px solid;
       padding-left: 16px;
       margin: 0;
     }
-    .response-block.unsafe blockquote { border-color: #e0a09a; }
-    .response-block.safe blockquote { border-color: #7cc49a; }
+    .response-block.unsafe blockquote { border-color: #f5c6cb; }
+    .response-block.safe blockquote { border-color: #c3e6cb; }
 
-    /* ── REVIEW BOX ── */
     .review-box {
       border-radius: 10px;
       padding: 24px 28px;
       margin: 20px 0 30px;
     }
     .review-box.unsafe-review {
-      background: #fff;
-      border: 2px solid var(--red);
+      border: 2px solid #721c24;
     }
     .review-box.safe-review {
-      background: #fff;
-      border: 2px solid var(--green);
+      border: 2px solid #155724;
     }
     .review-box .assessment-badge {
       display: inline-flex;
@@ -649,21 +571,12 @@ export const PROJECTS: Project[] = [
       padding: 6px 16px;
       border-radius: 20px;
       font-weight: 700;
-      font-size: 0.88rem;
+      color: #fff;
       margin-bottom: 18px;
     }
-    .review-box.unsafe-review .assessment-badge {
-      background: var(--red);
-      color: #fff;
-    }
-    .review-box.safe-review .assessment-badge {
-      background: var(--green);
-      color: #fff;
-    }
-    .review-box h4 { margin-top: 18px; }
-    .review-box ul { padding-left: 22px; margin-bottom: 14px; }
-    .review-box li { margin-bottom: 7px; font-size: 0.96rem; }
-
+    .review-box.unsafe-review .assessment-badge { background: #721c24; }
+    .review-box.safe-review .assessment-badge { background: #155724; }
+    
     .harm-row {
       display: flex;
       gap: 16px;
@@ -673,139 +586,29 @@ export const PROJECTS: Project[] = [
     .harm-pill {
       flex: 1;
       min-width: 180px;
-      background: var(--gray-100);
+      background: #f8f9fa;
       border-radius: 8px;
       padding: 12px 16px;
-      font-size: 0.88rem;
     }
-    .harm-pill strong { display: block; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.7px; color: var(--gray-600); margin-bottom: 4px; }
+    .harm-pill strong { 
+        display: block; 
+        text-transform: uppercase;
+        color: #333;
+    }
 
-    /* ── PRINCIPLES ── */
     .principle {
-      background: var(--gray-50);
-      border: 1px solid var(--gray-200);
+      background: #f8f9fa;
+      border: 1px solid #eee;
       border-radius: 10px;
       padding: 22px 26px;
       margin-bottom: 20px;
     }
-    .principle-number {
-      display: inline-block;
-      background: var(--teal);
-      color: #fff;
-      font-family: var(--heading-font);
-      font-size: 1rem;
-      font-weight: 700;
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 30px;
-      margin-right: 10px;
-      vertical-align: middle;
-    }
-    .principle h3 { display: inline; vertical-align: middle; font-size: 1.1rem; }
-    .principle-body { margin-top: 14px; }
-    .compare-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 14px;
-      margin-top: 14px;
-    }
-    @media (max-width: 600px) { .compare-grid { grid-template-columns: 1fr; } }
-    .compare-col {
-      border-radius: 8px;
-      padding: 14px 16px;
-      font-size: 0.92rem;
-    }
-    .compare-col.good { background: var(--green-light); border: 1px solid #a8d9bb; }
-    .compare-col.bad { background: var(--red-light); border: 1px solid #f0b8b2; }
-    .compare-col strong { display: block; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.7px; margin-bottom: 8px; }
-    .compare-col.good strong { color: var(--green); }
-    .compare-col.bad strong { color: var(--red); }
-    .compare-col ul { padding-left: 18px; }
-    .compare-col li { margin-bottom: 5px; }
-
-    /* ── METHODOLOGY ── */
-    .method-steps { counter-reset: step; padding: 0; list-style: none; }
-    .method-steps li {
-      counter-increment: step;
-      display: flex;
-      gap: 16px;
-      padding: 16px 0;
-      border-bottom: 1px solid var(--gray-200);
-    }
-    .method-steps li:last-child { border-bottom: none; }
-    .method-steps li::before {
-      content: counter(step);
-      flex-shrink: 0;
-      width: 32px;
-      height: 32px;
-      background: var(--navy);
-      color: #fff;
-      font-family: var(--heading-font);
-      font-weight: 700;
-      font-size: 0.95rem;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 2px;
-    }
-
-    /* ── QUALIFICATIONS ── */
-    .qual-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 18px;
-      margin-top: 8px;
-    }
-    .qual-card {
-      background: var(--gray-50);
-      border: 1px solid var(--gray-200);
-      border-radius: 10px;
-      padding: 20px 22px;
-    }
-    .qual-card h4 { margin: 0 0 10px; }
-    .qual-card ul { padding-left: 18px; margin: 0; }
-    .qual-card li { margin-bottom: 6px; font-size: 0.93rem; }
-
-    /* ── AVAILABLE FOR ── */
-    .services-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 8px;
-    }
-    .service-tag {
-      background: var(--teal-light);
-      border: 1px solid #a0d0d4;
-      color: var(--teal);
-      border-radius: 20px;
-      padding: 7px 18px;
-      font-size: 0.9rem;
-      font-weight: 600;
-    }
-
-    /* ── CONTACT ── */
-    .contact-block {
-      background: var(--navy);
-      color: #fff;
-      border-radius: 12px;
-      padding: 30px 34px;
-      margin-top: 10px;
-    }
-    .contact-block p { color: rgba(255,255,255,0.8); margin-bottom: 8px; }
-    .contact-block strong { color: #fff; }
-    .contact-block .name { font-family: var(--heading-font); font-size: 1.3rem; font-weight: 700; margin-bottom: 14px; color: #fff; }
-
-    /* ── FOOTER ── */
+    
     footer {
-      background: var(--gray-100);
       text-align: center;
       padding: 24px;
       font-size: 0.83rem;
-      color: var(--gray-600);
-      border-top: 1px solid var(--gray-200);
+      color: #666;
     }
   </style>
 </head>
