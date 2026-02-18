@@ -436,8 +436,8 @@ export const PROJECTS: Project[] = [
       --gray-50: #f8f9fb;
       --gray-100: #f0f2f5;
       --gray-200: #dde2ea;
-      --gray-600: #5a6472;
-      --gray-800: #2c3340;
+      --gray-600: #495057;
+      --gray-800: #212529;
       --body-font: 'Source Serif 4', Georgia, serif;
       --heading-font: 'Playfair Display', Georgia, serif;
     }
