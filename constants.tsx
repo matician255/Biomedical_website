@@ -425,8 +425,8 @@ export const PROJECTS: Project[] = [
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
       line-height: 1.6;
-      color: #e9eef6;
-      background-color:rgb(17, 16, 16);
+      color: #000;
+      background-color: #fff;
       margin: 0;
       padding: 0;
     }
@@ -607,7 +607,7 @@ export const PROJECTS: Project[] = [
       text-align: center;
       padding: 24px;
       font-size: 0.83rem;
-      color: #bdbdbd;
+      color: #6c757d;
     }
   </style>
 </head>
