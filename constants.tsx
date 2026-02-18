@@ -421,12 +421,11 @@ export const PROJECTS: Project[] = [
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Medical AI Annotation Portfolio – Dr. Emily Godfrey, MD</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet"/>
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
       line-height: 1.6;
-      color: #333;
+      color: #000;
       background-color: #f5f5f5;
       margin: 0;
       padding: 0;
@@ -467,14 +466,14 @@ export const PROJECTS: Project[] = [
 
     h2 {
       font-size: 1.75rem;
-      color: #333;
+      color: #000;
       margin-bottom: 22px;
       padding-bottom: 12px;
       border-bottom: 2px solid #667eea;
     }
     h3 {
       font-size: 1.25rem;
-      color: #333;
+      color: #000;
       margin: 28px 0 12px;
     }
     h4 {
