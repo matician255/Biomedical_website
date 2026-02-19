@@ -4,6 +4,8 @@ import { NavItem, Project, Service, AboutPoint } from './types';
 import dmArticleImg from './img/dm_article.png';
 // @ts-ignore
 import heartArticleImg from './img/heart_article.png';
+// @ts-ignore
+import annotationImg from './img/annotation.png'
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'HOME', href: '#home' },
@@ -406,11 +408,11 @@ export const PROJECTS: Project[] = [
     `
   },
 
-
+ 
   {
     title: 'Medical AI Annotation',
     description: 'Clinical Safety Review & AI Response Evaluation Portfolio',
-    image: 'https://picsum.photos/seed/bio2/1200/800',
+    image: annotationImg,
     location: 'Remote',
     category: 'AI Annotation',
     link: '#',
